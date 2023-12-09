@@ -4,7 +4,7 @@
   docker_image: "timam/pokemon-api"
   auto_promotion: "true"
   secret_manager:
-    enabled: "false"
+    enabled: false
 
   service_type: "NodePort"
   service_port: "8080"
