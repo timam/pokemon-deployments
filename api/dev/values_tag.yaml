@@ -1,0 +1,2 @@
+deployment:
+  docker_image_tag: 5a9b29318ba2bc73614add152449eea1ae499bac

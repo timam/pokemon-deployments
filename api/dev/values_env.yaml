@@ -1,0 +1,3 @@
+deployment:
+  env_vars:
+    FIRE: Charmander,Charizard,Growlithe

@@ -1,0 +1,26 @@
+ deployment:
+  namespace: "pokemon"
+  microservice_name: "dev-pokemon-api"
+  docker_image: "ghcr.io/timam/pokemon-api"
+
+  service_type: "NodePort"
+  service_port: "8080"
+  container_port: "8080"
+
+  min_replica: "1"
+  max_replica: "1"
+
+  memory_request: "512Mi"
+  memory_limit: "1024Mi"
+  memory_based_scale_threshold: "60"
+
+  cpu_request: "250m"
+  cpu_limit: "500m"
+  cpu_based_scale_threshold: "60"
+
+  liveness_prob_delay: "60"
+  liveness_prob_period: "10"
+  readiness_prob_delay: "60"
+  readiness_prob_period: "10"
+  terminate_grace_period: "10"
+  health_check_path: "/"
