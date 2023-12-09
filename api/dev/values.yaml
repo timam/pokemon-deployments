@@ -2,6 +2,7 @@
   namespace: "pokemon"
   microservice_name: "dev-pokemon-api"
   docker_image: "timam/pokemon-api"
+  auto_promotion: "true"
 
   service_type: "NodePort"
   service_port: "8080"
