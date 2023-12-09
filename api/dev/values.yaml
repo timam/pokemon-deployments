@@ -1,7 +1,7 @@
  deployment:
   namespace: "pokemon"
   microservice_name: "dev-pokemon-api"
-  docker_image: "ghcr.io/timam/pokemon-api"
+  docker_image: "timam/pokemon-api"
 
   service_type: "NodePort"
   service_port: "8080"
