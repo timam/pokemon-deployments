@@ -7,5 +7,5 @@ version: 1.0.0
 
 dependencies:
   - name: deployment
-    version: "0.10.12"
-    repository: "file://charts/deployment-0.10.12.tgz"
+    version: "0.10.13"
+    repository: "file://charts/deployment-0.10.13.tgz"
